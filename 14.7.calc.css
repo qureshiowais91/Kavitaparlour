@@ -1,0 +1,79 @@
+body{
+	background-color: black;
+}
+
+#contain{
+	width:800px;
+	height:700px;
+	background-color: black;
+	margin:20px auto;
+
+}
+
+#call{
+	width:400px;
+	height:610px;
+	background-color: grey;
+	margin:0 auto;
+	top:25px;
+	position: relative;
+	border-radius: 10px;
+	border:4px solid white;
+
+}
+#result{
+	height:120px;
+	background-color:white;
+	border:4px solid #BEBEBE;
+	border-radius:20px;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding: 20px;
+	font-size: 10px;
+	color:blue;
+}
+
+#output{
+	text-align: right;
+	height: 50px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+
+#keyboard{
+	height:400px;
+
+
+}
+
+.operator,.number,.empty{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	border-width: 0px;
+	float:left;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 22px;
+	cursor:pointer;
+    outline:0px;
+}
+
+.number:hover{
+	background-color:#BEBEBE;
+
+}
+
+.number,.empty{
+	background-color: grey;
+
+}
+	
+	
+.number:active{
+	font-size: 20px;
+}
